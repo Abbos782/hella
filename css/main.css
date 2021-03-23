@@ -108,6 +108,10 @@
   padding: 10px;
 }
 
+.services {
+  margin: 150px 0;
+}
+
 .services .container .row .col-lg-4 a {
   font-family: Poppins;
   text-decoration: none;
@@ -132,12 +136,89 @@
   line-height: 22px;
 }
 
-.services .container .row .img {
-  background-color: #E5F4F2;
+.services .container .row .icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
-.services .container .row .img img {
-  margin: 0 auto;
+.services .container .row .icons .row .col-lg-5 .img {
+  width: 50%;
   text-align: center;
+  background-color: #E5F4F2;
+  border-radius: 50%;
+  padding: 20px;
+}
+
+.services .container .row .icons .row .col-lg-5 h2 {
+  width: 60%;
+}
+
+.services .container .row .icons .row .col-lg-5 p {
+  width: 60%;
+}
+
+.about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #E5F4F2;
+  padding: 50px 0;
+  z-index: -23;
+}
+
+.about .serculs {
+  motion: 0;
+  position: relative;
+}
+
+.about .serculs .sercul {
+  background-color: #013C51;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+.about .serculs .sercul img {
+  padding: 25px;
+}
+
+.about .serculs .circil {
+  position: absolute;
+  border: 1px solid #2CBCA2;
+  top: -10px;
+  width: 100px;
+  right: 391px;
+  height: 100px;
+  border-radius: 50%;
+  z-index: -22;
+}
+
+.about .about__text {
+  margin: 0 auto;
+}
+
+.about .about__text a {
+  width: 30%;
+  text-decoration: none;
+  color: #2CBCA2;
+  padding: 10px 0;
+}
+
+.about .about__text h2 {
+  width: 80%;
+  color: #012B43;
+  margin: 0;
+}
+
+.about .about__text p {
+  width: 90%;
+  margin: 40px 0;
 }
 /*# sourceMappingURL=main.css.map */
