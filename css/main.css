@@ -19,6 +19,15 @@
   border: none;
 }
 
+.primary__text {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+  color: #6F8B9B;
+}
+
 .header {
   background-color: #013C51;
   -webkit-clip-path: polygon(50% 0%, 100% 0, 100% 35%, 100% 87%, 80% 88%, 50% 100%, 21% 89%, 0 87%, 0% 35%, 0 0);
@@ -113,5 +122,22 @@
   font-weight: 700;
   line-height: 42px;
   text-align: left;
+}
+
+.services .container .row .col-lg-4 p {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.services .container .row .img {
+  background-color: #E5F4F2;
+}
+
+.services .container .row .img img {
+  margin: 0 auto;
+  text-align: center;
 }
 /*# sourceMappingURL=main.css.map */
