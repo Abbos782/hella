@@ -616,4 +616,40 @@ body {
 .contact .row .col-lg-4 a:hover {
   color: #4d4609;
 }
+
+.footer {
+  background-color: #002E3F;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 30px 0;
+}
+
+.footer .link a {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: -0.1px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.footer .link a span {
+  color: #2CBCA2;
+}
+
+.footer .link a:hover {
+  color: #24aec0;
+}
+
+.footer a:hover {
+  background-color: #rgb 25, 221, 228;
+}
 /*# sourceMappingURL=main.css.map */

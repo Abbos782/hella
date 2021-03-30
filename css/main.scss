@@ -558,3 +558,30 @@ body{
     
    
 }
+.footer{
+    background-color:#002E3F;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+    .link{
+        a{
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 24px;
+            letter-spacing: -0.1px;
+            color: #FFFFFF; 
+            text-decoration: none;
+            span{
+                color: #2CBCA2;
+            } 
+        }
+        a:hover{
+            color: rgb(36, 174, 192);
+        }
+    }
+    a:hover{
+      background-color: #rgb(25, 221, 228);;
+    }
+}
