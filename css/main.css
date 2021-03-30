@@ -367,6 +367,10 @@ body {
   margin: 40px 0;
 }
 
+.skills {
+  padding-bottom: 100px;
+}
+
 .skills .skills__box {
   background-color: #3AC3AB;
   border-radius: 16px;
@@ -472,5 +476,77 @@ body {
   font-size: 50px;
   text-align: center;
   margin: 0;
+}
+
+.news {
+  background-color: #E5F4F2;
+  padding: 161px;
+}
+
+.news .news__box {
+  width: 670px;
+  height: 460px;
+  left: 375px;
+  top: 6262px;
+  background: #013C51;
+  border-radius: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.news .news__box .photo img {
+  height: 50px;
+}
+
+.news a {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0.35em;
+  text-decoration: none;
+  color: #2CBCA2;
+}
+
+.news h2 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 42px;
+  color: #012B43;
+}
+
+.news p {
+  margin: 30px 0;
+}
+
+.contact {
+  background-color: #E5F4F2;
+}
+
+.contact .backcolor {
+  background-color: #013C51;
+  -webkit-clip-path: polygon(50% 34%, 72% 53%, 100% 42%, 100% 100%, 0 99%, 0 46%, 29% 53%);
+          clip-path: polygon(50% 34%, 72% 53%, 100% 42%, 100% 100%, 0 99%, 0 46%, 29% 53%);
+}
+
+.contact .backcolor .logo__box {
+  width: 50px;
+  height: 60px;
+  background-color: #000;
+  z-index: 22;
+  -webkit-transform: translateY(120%);
+          transform: translateY(120%);
+}
+
+.contact .backcolor .logo__box .logo {
+  background-color: #000;
 }
 /*# sourceMappingURL=main.css.map */
